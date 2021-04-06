@@ -1,10 +1,11 @@
 <html>
 <style>
 .img {
-    background-image: url(./champion82.png);
+    /*background-image: url(./champion82.png);*/
 	width: 82px;
     height: 82px;
 	display: inline-block;
+	background-size: 82px 82px;
 }
 .w {
     background-image: url(./W.png);
@@ -104,31 +105,31 @@ lembre de copiar a imagem completa do op.gg também
 */
 
 //champlist = JSON.parse('["Aatrox","Ahri","Akali","Alistar","Amumu","Anivia","Annie","Aphelios","Ashe","Aurelion Sol","Azir","Bardo","Blitzcrank","Brand","Braum","Caitlyn","Camille","Cassiopeia","Cho Gath","Corki","Darius","Diana","Dr. Mundo","Draven","Ekko","Elise","Evelynn","Ezreal","Fiddlesticks","Fiora","Fizz","Galio","Gangplank","Garen","Gnar","Gragas","Graves","Hecarim","Heimerdinger","Illaoi","Irelia","Ivern","Janna","Jarvan IV","Jax","Jayce","Jhin","Jinx","Kai Sa","Kalista","Karma","Karthus","Kassadin","Katarina","Kayle","Kayn","Kennen","Kha Zix","Kindred","Kled","Kog Maw","LeBlanc","Lee Sin","Leona","Lillia","Lissandra","Lucian","Lulu","Lux","Malphite","Malzahar","Maokai","Master Yi","Miss Fortune","Mordekaiser","Morgana","Nami","Nasus","Nautilus","Neeko","Nidalee","Nocturne","Nunu e Willump","Olaf","Orianna","Ornn","Pantheon","Poppy","Pyke","Qiyana","Quinn","Rakan","Rammus","Rek Sai","Rell","Renekton","Rengar","Riven","Rumble","Ryze","Samira","Sejuani","Senna","Seraphine","Sett","Shaco","Shen","Shyvana","Singed","Sion","Sivir","Skarner","Sona","Soraka","Swain","Sylas","Syndra","Tahm Kench","Taliyah","Talon","Taric","Teemo","Thresh","Tristana","Trundle","Tryndamere","Twisted Fate","Twitch","Udyr","Urgot","Varus","Vayne","Veigar","Vel Koz","Vi","Viego","Viktor","Vladimir","Volibear","Warwick","Wukong","Xayah","Xerath","Xin Zhao","Yasuo","Yone","Yorick","Yuumi","Zac","Zed","Ziggs","Zilean","Zoe","Zyra"]');
-champdata = JSON.parse('[{"name":"Aatrox", "color" :["w","u","b","r","g"]}, {"name":"Ahri", "color" :["w"]}, {"name":"Akali", "color" :["u"]}, {"name":"Alistar", "color" :["b"]}, {"name":"Amumu", "color" :["r"]}, {"name":"Anivia", "color" :["g"]}, {"name":"Annie", "color" :["w","u"]}, {"name":"Aphelios", "color" :["w","b"]}, {"name":"Ashe", "color" :["w","r"]}, {"name":"Aurelion Sol", "color" :["w","g"]}, {"name":"Azir", "color" :["u","b"]}, {"name":"Bardo", "color" :["u","r"]}, {"name":"Blitzcrank", "color" :["u","g"]}, {"name":"Brand", "color" :["b","r"]}, {"name":"Braum", "color" :["b","g"]}, {"name":"Caitlyn", "color" :["r","g"]}, {"name":"Camille", "color" :["w","u","b"]}, {"name":"Cassiopeia", "color" :["w","u","r"]}, {"name":"Cho Gath", "color" :["w","u","g"]}, {"name":"Corki", "color" :["w","b","r"]}, {"name":"Darius", "color" :["w","b","g"]}, {"name":"Diana", "color" :["w","r","g"]}, {"name":"Draven", "color" :["u","b","g"]}, {"name":"Dr. Mundo", "color" :["u","b","r"]}, {"name":"Ekko", "color" :["u","r","g"]}, {"name":"Elise", "color" :["b","r","g"]}, {"name":"Evelynn", "color" :["u","b","r","g"]}, {"name":"Ezreal", "color" :["w","b","r","g"]}, {"name":"Fiddlesticks", "color" :["w","u","r","g"]}, {"name":"Fiora", "color" :["w","u","b","g"]}, {"name":"Fizz", "color" :["w","u","b","r"]}, {"name":"Galio", "color" :["w","u","b","r","g"]}, {"name":"Gangplank", "color" :["w","u","b","r","g"]}, {"name":"Garen", "color" :["w","u","b","r","g"]}, {"name":"Gnar", "color" :["w","u","b","r","g"]}, {"name":"Gragas", "color" :["w","u","b","r","g"]}, {"name":"Graves", "color" :["w","u","b","r","g"]}, {"name":"Hecarim", "color" :["w","u","b","r","g"]}, {"name":"Heimerdinger", "color" :["w","u","b","r","g"]}, {"name":"Illaoi", "color" :["w","u","b","r","g"]}, {"name":"Irelia", "color" :["w","u","b","r","g"]}, {"name":"Ivern", "color" :["w","u","b","r","g"]}, {"name":"Janna", "color" :["w","u","b","r","g"]}, {"name":"Jarvan IV", "color" :["w","u","b","r","g"]}, {"name":"Jax", "color" :["w","u","b","r","g"]}, {"name":"Jayce", "color" :["w","u","b","r","g"]}, {"name":"Jhin", "color" :["w","u","b","r","g"]}, {"name":"Jinx", "color" :["w","u","b","r","g"]}, {"name":"Kai Sa", "color" :["w","u","b","r","g"]}, {"name":"Kalista", "color" :["w","u","b","r","g"]}, {"name":"Karma", "color" :["w","u","b","r","g"]}, {"name":"Karthus", "color" :["w","u","b","r","g"]}, {"name":"Kassadin", "color" :["w","u","b","r","g"]}, {"name":"Katarina", "color" :["w","u","b","r","g"]}, {"name":"Kayle", "color" :["w","u","b","r","g"]}, {"name":"Kayn", "color" :["w","u","b","r","g"]}, {"name":"Kennen", "color" :["w","u","b","r","g"]}, {"name":"Kha Zix", "color" :["w","u","b","r","g"]}, {"name":"Kindred", "color" :["w","u","b","r","g"]}, {"name":"Kled", "color" :["w","u","b","r","g"]}, {"name":"Kog Maw", "color" :["w","u","b","r","g"]}, {"name":"LeBlanc", "color" :["w","u","b","r","g"]}, {"name":"Lee Sin", "color" :["w","u","b","r","g"]}, {"name":"Leona", "color" :["w","u","b","r","g"]}, {"name":"Lillia", "color" :["w","u","b","r","g"]}, {"name":"Lissandra", "color" :["w","u","b","r","g"]}, {"name":"Lucian", "color" :["w","u","b","r","g"]}, {"name":"Lulu", "color" :["w","u","b","r","g"]}, {"name":"Lux", "color" :["w","u","b","r","g"]}, {"name":"Malphite", "color" :["w","u","b","r","g"]}, {"name":"Malzahar", "color" :["w","u","b","r","g"]}, {"name":"Maokai", "color" :["w","u","b","r","g"]}, {"name":"Master Yi", "color" :["w","u","b","r","g"]}, {"name":"Miss Fortune", "color" :["w","u","b","r","g"]}, {"name":"Wukong", "color" :["w","u","b","r","g"]}, {"name":"Mordekaiser", "color" :["w","u","b","r","g"]}, {"name":"Morgana", "color" :["w","u","b","r","g"]}, {"name":"Nami", "color" :["w","u","b","r","g"]}, {"name":"Nasus", "color" :["w","u","b","r","g"]}, {"name":"Nautilus", "color" :["w","u","b","r","g"]}, {"name":"Neeko", "color" :["w","u","b","r","g"]}, {"name":"Nidalee", "color" :["w","u","b","r","g"]}, {"name":"Nocturne", "color" :["w","u","b","r","g"]}, {"name":"Nunu e Willump", "color" :["w","u","b","r","g"]}, {"name":"Olaf", "color" :["w","u","b","r","g"]}, {"name":"Orianna", "color" :["w","u","b","r","g"]}, {"name":"Ornn", "color" :["w","u","b","r","g"]}, {"name":"Pantheon", "color" :["w","u","b","r","g"]}, {"name":"Poppy", "color" :["w","u","b","r","g"]}, {"name":"Pyke", "color" :["w","u","b","r","g"]}, {"name":"Qiyana", "color" :["w","u","b","r","g"]}, {"name":"Quinn", "color" :["w","u","b","r","g"]}, {"name":"Rakan", "color" :["w","u","b","r","g"]}, {"name":"Rammus", "color" :["w","u","b","r","g"]}, {"name":"Rek Sai", "color" :["w","u","b","r","g"]}, {"name":"Rell", "color" :["w","u","b","r","g"]}, {"name":"Renekton", "color" :["w","u","b","r","g"]}, {"name":"Rengar", "color" :["w","u","b","r","g"]}, {"name":"Riven", "color" :["w","u","b","r","g"]}, {"name":"Rumble", "color" :["w","u","b","r","g"]}, {"name":"Ryze", "color" :["w","u","b","r","g"]}, {"name":"Samira", "color" :["w","u","b","r","g"]}, {"name":"Sejuani", "color" :["w","u","b","r","g"]}, {"name":"Senna", "color" :["w","u","b","r","g"]}, {"name":"Seraphine", "color" :["w","u","b","r","g"]}, {"name":"Sett", "color" :["w","u","b","r","g"]}, {"name":"Shaco", "color" :["w","u","b","r","g"]}, {"name":"Shen", "color" :["w","u","b","r","g"]}, {"name":"Shyvana", "color" :["w","u","b","r","g"]}, {"name":"Singed", "color" :["w","u","b","r","g"]}, {"name":"Sion", "color" :["w","u","b","r","g"]}, {"name":"Sivir", "color" :["w","u","b","r","g"]}, {"name":"Skarner", "color" :["w","u","b","r","g"]}, {"name":"Sona", "color" :["w","u","b","r","g"]}, {"name":"Soraka", "color" :["w","u","b","r","g"]}, {"name":"Swain", "color" :["w","u","b","r","g"]}, {"name":"Sylas", "color" :["w","u","b","r","g"]}, {"name":"Syndra", "color" :["w","u","b","r","g"]}, {"name":"Tahm Kench", "color" :["w","u","b","r","g"]}, {"name":"Taliyah", "color" :["w","u","b","r","g"]}, {"name":"Talon", "color" :["w","u","b","r","g"]}, {"name":"Taric", "color" :["w","u","b","r","g"]}, {"name":"Teemo", "color" :["w","u","b","r","g"]}, {"name":"Thresh", "color" :["w","u","b","r","g"]}, {"name":"Tristana", "color" :["w","u","b","r","g"]}, {"name":"Trundle", "color" :["w","u","b","r","g"]}, {"name":"Tryndamere", "color" :["w","u","b","r","g"]}, {"name":"Twisted Fate", "color" :["w","u","b","r","g"]}, {"name":"Twitch", "color" :["w","u","b","r","g"]}, {"name":"Udyr", "color" :["w","u","b","r","g"]}, {"name":"Urgot", "color" :["w","u","b","r","g"]}, {"name":"Varus", "color" :["w","u","b","r","g"]}, {"name":"Vayne", "color" :["w","u","b","r","g"]}, {"name":"Veigar", "color" :["w","u","b","r","g"]}, {"name":"Vel Koz", "color" :["w","u","b","r","g"]}, {"name":"Vi", "color" :["w","u","b","r","g"]}, {"name":"Viego", "color" :["w","u","b","r","g"]}, {"name":"Viktor", "color" :["w","u","b","r","g"]}, {"name":"Vladimir", "color" :["w","u","b","r","g"]}, {"name":"Volibear", "color" :["w","u","b","r","g"]}, {"name":"Warwick", "color" :["w","u","b","r","g"]}, {"name":"Xayah", "color" :["w","u","b","r","g"]}, {"name":"Xerath", "color" :["w","u","b","r","g"]}, {"name":"Xin Zhao", "color" :["w","u","b","r","g"]}, {"name":"Yasuo", "color" :["w","u","b","r","g"]}, {"name":"Yone", "color" :["w","u","b","r","g"]}, {"name":"Yorick", "color" :["w","u","b","r","g"]}, {"name":"Yuumi", "color" :["w","u","b","r","g"]}, {"name":"Zac", "color" :["w","u","b","r","g"]}, {"name":"Zed", "color" :["w","u","b","r","g"]}, {"name":"Ziggs", "color" :["w","u","b","r","g"]}, {"name":"Zilean", "color" :["w","u","b","r","g"]}, {"name":"Zoe", "color" :["w","u","b","r","g"]}, {"name":"Zyra", "color" :["w","u","b","r","g"]} ]');
-console.log(champdata);
+//champdata = JSON.parse('[{"name":"Aatrox", "color" :["w","u","b","r","g"]}, {"name":"Ahri", "color" :["w"]}, {"name":"Akali", "color" :["u"]}, {"name":"Alistar", "color" :["b"]}, {"name":"Amumu", "color" :["r"]}, {"name":"Anivia", "color" :["g"]}, {"name":"Annie", "color" :["w","u"]}, {"name":"Aphelios", "color" :["w","b"]}, {"name":"Ashe", "color" :["w","r"]}, {"name":"Aurelion Sol", "color" :["w","g"]}, {"name":"Azir", "color" :["u","b"]}, {"name":"Bardo", "color" :["u","r"]}, {"name":"Blitzcrank", "color" :["u","g"]}, {"name":"Brand", "color" :["b","r"]}, {"name":"Braum", "color" :["b","g"]}, {"name":"Caitlyn", "color" :["r","g"]}, {"name":"Camille", "color" :["w","u","b"]}, {"name":"Cassiopeia", "color" :["w","u","r"]}, {"name":"Cho Gath", "color" :["w","u","g"]}, {"name":"Corki", "color" :["w","b","r"]}, {"name":"Darius", "color" :["w","b","g"]}, {"name":"Diana", "color" :["w","r","g"]}, {"name":"Draven", "color" :["u","b","g"]}, {"name":"Dr. Mundo", "color" :["u","b","r"]}, {"name":"Ekko", "color" :["u","r","g"]}, {"name":"Elise", "color" :["b","r","g"]}, {"name":"Evelynn", "color" :["u","b","r","g"]}, {"name":"Ezreal", "color" :["w","b","r","g"]}, {"name":"Fiddlesticks", "color" :["w","u","r","g"]}, {"name":"Fiora", "color" :["w","u","b","g"]}, {"name":"Fizz", "color" :["w","u","b","r"]}, {"name":"Galio", "color" :["w","u","b","r","g"]}, {"name":"Gangplank", "color" :["w","u","b","r","g"]}, {"name":"Garen", "color" :["w","u","b","r","g"]}, {"name":"Gnar", "color" :["w","u","b","r","g"]}, {"name":"Gragas", "color" :["w","u","b","r","g"]}, {"name":"Graves", "color" :["w","u","b","r","g"]}, {"name":"Hecarim", "color" :["w","u","b","r","g"]}, {"name":"Heimerdinger", "color" :["w","u","b","r","g"]}, {"name":"Illaoi", "color" :["w","u","b","r","g"]}, {"name":"Irelia", "color" :["w","u","b","r","g"]}, {"name":"Ivern", "color" :["w","u","b","r","g"]}, {"name":"Janna", "color" :["w","u","b","r","g"]}, {"name":"Jarvan IV", "color" :["w","u","b","r","g"]}, {"name":"Jax", "color" :["w","u","b","r","g"]}, {"name":"Jayce", "color" :["w","u","b","r","g"]}, {"name":"Jhin", "color" :["w","u","b","r","g"]}, {"name":"Jinx", "color" :["w","u","b","r","g"]}, {"name":"Kai Sa", "color" :["w","u","b","r","g"]}, {"name":"Kalista", "color" :["w","u","b","r","g"]}, {"name":"Karma", "color" :["w","u","b","r","g"]}, {"name":"Karthus", "color" :["w","u","b","r","g"]}, {"name":"Kassadin", "color" :["w","u","b","r","g"]}, {"name":"Katarina", "color" :["w","u","b","r","g"]}, {"name":"Kayle", "color" :["w","u","b","r","g"]}, {"name":"Kayn", "color" :["w","u","b","r","g"]}, {"name":"Kennen", "color" :["w","u","b","r","g"]}, {"name":"Kha Zix", "color" :["w","u","b","r","g"]}, {"name":"Kindred", "color" :["w","u","b","r","g"]}, {"name":"Kled", "color" :["w","u","b","r","g"]}, {"name":"Kog Maw", "color" :["w","u","b","r","g"]}, {"name":"LeBlanc", "color" :["w","u","b","r","g"]}, {"name":"Lee Sin", "color" :["w","u","b","r","g"]}, {"name":"Leona", "color" :["w","u","b","r","g"]}, {"name":"Lillia", "color" :["w","u","b","r","g"]}, {"name":"Lissandra", "color" :["w","u","b","r","g"]}, {"name":"Lucian", "color" :["w","u","b","r","g"]}, {"name":"Lulu", "color" :["w","u","b","r","g"]}, {"name":"Lux", "color" :["w","u","b","r","g"]}, {"name":"Malphite", "color" :["w","u","b","r","g"]}, {"name":"Malzahar", "color" :["w","u","b","r","g"]}, {"name":"Maokai", "color" :["w","u","b","r","g"]}, {"name":"Master Yi", "color" :["w","u","b","r","g"]}, {"name":"Miss Fortune", "color" :["w","u","b","r","g"]}, {"name":"Wukong", "color" :["w","u","b","r","g"]}, {"name":"Mordekaiser", "color" :["w","u","b","r","g"]}, {"name":"Morgana", "color" :["w","u","b","r","g"]}, {"name":"Nami", "color" :["w","u","b","r","g"]}, {"name":"Nasus", "color" :["w","u","b","r","g"]}, {"name":"Nautilus", "color" :["w","u","b","r","g"]}, {"name":"Neeko", "color" :["w","u","b","r","g"]}, {"name":"Nidalee", "color" :["w","u","b","r","g"]}, {"name":"Nocturne", "color" :["w","u","b","r","g"]}, {"name":"Nunu e Willump", "color" :["w","u","b","r","g"]}, {"name":"Olaf", "color" :["w","u","b","r","g"]}, {"name":"Orianna", "color" :["w","u","b","r","g"]}, {"name":"Ornn", "color" :["w","u","b","r","g"]}, {"name":"Pantheon", "color" :["w","u","b","r","g"]}, {"name":"Poppy", "color" :["w","u","b","r","g"]}, {"name":"Pyke", "color" :["w","u","b","r","g"]}, {"name":"Qiyana", "color" :["w","u","b","r","g"]}, {"name":"Quinn", "color" :["w","u","b","r","g"]}, {"name":"Rakan", "color" :["w","u","b","r","g"]}, {"name":"Rammus", "color" :["w","u","b","r","g"]}, {"name":"Rek Sai", "color" :["w","u","b","r","g"]}, {"name":"Rell", "color" :["w","u","b","r","g"]}, {"name":"Renekton", "color" :["w","u","b","r","g"]}, {"name":"Rengar", "color" :["w","u","b","r","g"]}, {"name":"Riven", "color" :["w","u","b","r","g"]}, {"name":"Rumble", "color" :["w","u","b","r","g"]}, {"name":"Ryze", "color" :["w","u","b","r","g"]}, {"name":"Samira", "color" :["w","u","b","r","g"]}, {"name":"Sejuani", "color" :["w","u","b","r","g"]}, {"name":"Senna", "color" :["w","u","b","r","g"]}, {"name":"Seraphine", "color" :["w","u","b","r","g"]}, {"name":"Sett", "color" :["w","u","b","r","g"]}, {"name":"Shaco", "color" :["w","u","b","r","g"]}, {"name":"Shen", "color" :["w","u","b","r","g"]}, {"name":"Shyvana", "color" :["w","u","b","r","g"]}, {"name":"Singed", "color" :["w","u","b","r","g"]}, {"name":"Sion", "color" :["w","u","b","r","g"]}, {"name":"Sivir", "color" :["w","u","b","r","g"]}, {"name":"Skarner", "color" :["w","u","b","r","g"]}, {"name":"Sona", "color" :["w","u","b","r","g"]}, {"name":"Soraka", "color" :["w","u","b","r","g"]}, {"name":"Swain", "color" :["w","u","b","r","g"]}, {"name":"Sylas", "color" :["w","u","b","r","g"]}, {"name":"Syndra", "color" :["w","u","b","r","g"]}, {"name":"Tahm Kench", "color" :["w","u","b","r","g"]}, {"name":"Taliyah", "color" :["w","u","b","r","g"]}, {"name":"Talon", "color" :["w","u","b","r","g"]}, {"name":"Taric", "color" :["w","u","b","r","g"]}, {"name":"Teemo", "color" :["w","u","b","r","g"]}, {"name":"Thresh", "color" :["w","u","b","r","g"]}, {"name":"Tristana", "color" :["w","u","b","r","g"]}, {"name":"Trundle", "color" :["w","u","b","r","g"]}, {"name":"Tryndamere", "color" :["w","u","b","r","g"]}, {"name":"Twisted Fate", "color" :["w","u","b","r","g"]}, {"name":"Twitch", "color" :["w","u","b","r","g"]}, {"name":"Udyr", "color" :["w","u","b","r","g"]}, {"name":"Urgot", "color" :["w","u","b","r","g"]}, {"name":"Varus", "color" :["w","u","b","r","g"]}, {"name":"Vayne", "color" :["w","u","b","r","g"]}, {"name":"Veigar", "color" :["w","u","b","r","g"]}, {"name":"Vel Koz", "color" :["w","u","b","r","g"]}, {"name":"Vi", "color" :["w","u","b","r","g"]}, {"name":"Viego", "color" :["w","u","b","r","g"]}, {"name":"Viktor", "color" :["w","u","b","r","g"]}, {"name":"Vladimir", "color" :["w","u","b","r","g"]}, {"name":"Volibear", "color" :["w","u","b","r","g"]}, {"name":"Warwick", "color" :["w","u","b","r","g"]}, {"name":"Xayah", "color" :["w","u","b","r","g"]}, {"name":"Xerath", "color" :["w","u","b","r","g"]}, {"name":"Xin Zhao", "color" :["w","u","b","r","g"]}, {"name":"Yasuo", "color" :["w","u","b","r","g"]}, {"name":"Yone", "color" :["w","u","b","r","g"]}, {"name":"Yorick", "color" :["w","u","b","r","g"]}, {"name":"Yuumi", "color" :["w","u","b","r","g"]}, {"name":"Zac", "color" :["w","u","b","r","g"]}, {"name":"Zed", "color" :["w","u","b","r","g"]}, {"name":"Ziggs", "color" :["w","u","b","r","g"]}, {"name":"Zilean", "color" :["w","u","b","r","g"]}, {"name":"Zoe", "color" :["w","u","b","r","g"]}, {"name":"Zyra", "color" :["w","u","b","r","g"]} ]');
+//console.log(champdata);
 
-champsPerLine = 7;//ideia para o futuro
-
-list = document.querySelector("#list");
+//champsPerLine = 7;//ideia para o futuro
+/*
+screenlist = document.querySelector("#list");
 
 for(let i in champdata){
 	champdata[i].index = i;
-	list.appendChild(makeChampItem(i));
-}
+	screenlist.appendChild(makeChampItem(i));
+}*/
 
-
+startup();
 function makeChampItem(i){
 	let row = document.createElement("div");
 	row.classList.add("row");
 	row.classList.add("py-1");
 	row.classList.add("champdata");
-	row.id = "champ"+champdata[i].index;
+	row.id = "champ"+i.id;
 	let col = document.createElement("div");
 	col.classList.add("col");
 	col.appendChild(getChampIcon(i));
 	//l.innerHTML+=champlist[i];
 	row.appendChild(col);
-	append5colors(row , i);
+	//append5colors(row , i);
 	return row;
 }
 
@@ -154,7 +155,8 @@ function createColor(color){
 function getChampIcon(i){
 	let e = document.createElement("i");
 	e.classList.add("img");
-	e.style["background-position"] = "0px "+(-82 * i)+"px"; //faz a quebra da img de cada champ
+	//e.style["background-position"] = "0px "+(-82 * i)+"px"; //faz a quebra da img de cada champ
+	e.style["background-image"] ="url('http://ddragon.leagueoflegends.com/cdn/"+i.version+"/img/champion/"+i.image.full+"')";
 	return e;
 }
 
@@ -182,6 +184,50 @@ function filterbycolor(c){
 
 function hideAllChamps(){let list = document.querySelectorAll(".champdata").forEach(e => e.classList.add("dnone"));}
 
+
+function ajax(address){
+	return new Promise((resolve,reject)=>{
+		var httpRequest = new XMLHttpRequest();
+
+		if (!httpRequest) {
+      reject('Giving up :( Cannot create an XMLHTTP instance');
+		}
+		httpRequest.onreadystatechange = ()=>{
+			if (httpRequest.readyState === XMLHttpRequest.DONE) {
+				if (httpRequest.status === 200) {
+					resolve(httpRequest.responseText);
+				} else {
+					reject('There was a problem with the request.');
+				}
+			}
+		}
+		httpRequest.open('GET', address);
+		httpRequest.send();
+	});
+}
+
+function startup(){
+	getLatestVersion().
+	then(loadChampData).
+	then(makeChampList);
+}
+
+function getLatestVersion(){
+	return ajax('https://ddragon.leagueoflegends.com/api/versions.json').
+  then(msg => {return JSON.parse(msg)[0]});//pegar a ultima versão
+}
+
+function loadChampData (version){
+	return ajax('http://ddragon.leagueoflegends.com/cdn/'+version+'/data/en_US/champion.json').
+	then(msg=> {return JSON.parse(msg).data});
+}
+
+function makeChampList (list){
+	screenlist = document.querySelector("#list");
+	for(i in list){
+		screenlist.appendChild(makeChampItem(list[i]));
+	}
+}
 
 </script>
 </html>
